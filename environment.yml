@@ -1,0 +1,24 @@
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - xarray>=2024.06.0
+  - kerchunk>=0.2.5
+  - h5netcdf
+  - pydantic
+  - numpy>=2.0.0
+  - ujson
+  - packaging
+  - universal_pathlib
+  - codecov
+  - pre-commit
+  - ruff
+  - pytest-mypy
+  - pytest-cov
+  - pytest
+  - pooch
+  - scipy
+  - netcdf4
+  - fsspec
+  - s3fs
+  - fastparquet
