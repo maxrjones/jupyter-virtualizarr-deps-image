@@ -5,4 +5,4 @@ FROM quay.io/jupyter/base-notebook:2024-07-25
 COPY environment.yml /tmp/environment.yml
 RUN mamba env update --prefix ${CONDA_DIR} --file /tmp/environment.yml
 
-COPY --chown=${NB_USER}:${NB_USER} image-tests image-tests
+COPY image-tests image-tests
