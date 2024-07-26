@@ -22,3 +22,4 @@ dependencies:
   - fsspec
   - s3fs
   - fastparquet
+  - git
